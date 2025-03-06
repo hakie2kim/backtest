@@ -6,6 +6,7 @@ class Settings(BaseSettings):
     DATABASE_NAME: str = "backtest"
     DATABASE_USER: str = "backtest"
     DATABASE_PASSWORD: str = "backtest"
+    EXCEL_SHEET_NAME: str = "가격"
 
     @property
     def DATABASE_URL(self):
